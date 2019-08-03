@@ -6,6 +6,13 @@
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
+    "python.autoComplete.extraPaths": [
+        "include/comtypes",
+        "include/configobj/src",
+        "include/pyserial",
+        "include/wxPython",
+        "miscDeps/python"
+    ],
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.insertSpaces": false,
