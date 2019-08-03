@@ -1,6 +1,7 @@
 {
     "editor.accessibilitySupport": "on",
     "python.linting.enabled": true,
+    ""python.linting.maxNumberOfProblems": 10000,
     "python.linting.flake8Args": [
         "--config=tests\\lint\\flake8.ini"
     ],
@@ -12,7 +13,7 @@
         "include/pyserial",
         "include/wxPython",
         "miscDeps/python"
-    ],
+    ],	
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.insertSpaces": false,
