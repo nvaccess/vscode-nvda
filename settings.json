@@ -1,4 +1,5 @@
 {
+    "editor.accessibilitySupport": "on",
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--config=tests\\lint\\flake8.ini"
@@ -6,6 +7,16 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
-    "editor.insertSpaces": false
+    "files.trimFinalNewlines": true,
+    "editor.insertSpaces": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "tests.unit",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
 }
