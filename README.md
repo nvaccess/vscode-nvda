@@ -6,7 +6,7 @@ The following settings are configured in this project:
 
 * Accessibility support is enabled
 * Linting is enabled based on the Flake8 configuration bundled with the NVDA repository
-* Auto complete extra paths areare added for the several external submodules
+* Auto complete extra paths are added for the several external submodules
 * When saving a file, a final new line is added to it, and extra new lines are trimmed from the end of the file when applicable. This ensures a uniform style across the project
 * De default indentation is set to use tabs instead of spaces
 * Testing within Code is enabled using the unittest framework
