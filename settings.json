@@ -8,6 +8,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.autoComplete.extraPaths": [
+        "source",
         "include/comtypes",
         "include/configobj/src",
         "include/pyserial",
