@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "NVDAHelper",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/miscdeps/include/**",
+                "${workspaceFolder}/nvdaHelper/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_CRT_SECURE_NO_DEPRECATE",
+                "_WIN32_WINNT=_WIN32_WINNT_WIN7"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
