@@ -1,16 +1,13 @@
 {
     "editor.accessibilitySupport": "on",
-    "python.linting.enabled": true,
-    "python.linting.maxNumberOfProblems": 10000,
-    "python.linting.flake8Args": [
+    "flake8.args": [
         "--config=tests\\lint\\flake8.ini"
     ],
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
     "python.autoComplete.extraPaths": [
         "source",
         "miscDeps/python"
-    ],	
+    ],
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.insertSpaces": false,
@@ -23,5 +20,10 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "python.analysis.extraPaths": [
+        "source",
+        "miscDeps/python"
+    ],
+    "flake8.importStrategy": "fromEnvironment"
 }
