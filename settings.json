@@ -10,7 +10,8 @@
     "python.autoComplete.extraPaths": [
         "source",
         "miscDeps/python"
-    ],	
+    ],
+    "python.analysis.stubPath": "${workspaceFolder}/.vscode/typings",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.insertSpaces": false,
