@@ -1,12 +1,6 @@
 {
     "editor.accessibilitySupport": "on",
-    "python.linting.enabled": true,
-    "python.linting.maxNumberOfProblems": 10000,
-    "python.linting.flake8Args": [
-        "--config=tests\\lint\\flake8.ini"
-    ],
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
+    "ruff.enable": true,
     "python.autoComplete.extraPaths": [
         "source",
         "miscDeps/python"
@@ -18,6 +12,7 @@
     "python.analysis.stubPath": "${workspaceFolder}/.vscode/typings",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.eol": "\n",
     "editor.insertSpaces": false,
     "python.testing.unittestArgs": [
         "-v",
