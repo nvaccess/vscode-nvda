@@ -29,5 +29,5 @@
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "python.analysis.autoImportCompletions": true,
-    "python.analysis.importFormat": "relative",
+    "python.analysis.importFormat": "relative"
 }
