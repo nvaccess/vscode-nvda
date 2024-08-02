@@ -10,7 +10,8 @@
 		"davidanson.vscode-markdownlint",
 		"ms-vscode.powershell",
 		"charliermarsh.ruff",
-		"editorconfig.editorconfig"
+		"editorconfig.editorconfig",
+		"njpwerner.autodocstring",
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []
