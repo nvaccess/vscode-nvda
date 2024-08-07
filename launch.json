@@ -1,0 +1,32 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "NVDA (Python)",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "nvda.pyw",
+			"console": "internalConsole",
+			"cwd": "${workspaceFolder}/source",
+			"env": {
+				"VIRTUAL_ENV": "${workspaceFolder}/.venv",
+			},
+		},
+		{
+			"name": "C++ attach",
+			"type": "cppvsdbg",
+			"request": "attach",
+			"symbolOptions": {
+				"searchMicrosoftSymbolServer": true,
+			},
+			"processId": "",
+		},
+		{
+			"name": "NVDA (mixed)",
+			"type": "pythoncpp",
+			"request": "launch",
+			"pythonLaunchName": "NVDA (Python)",
+			"cppAttachName": "C++ attach",
+		}
+	]
+}
