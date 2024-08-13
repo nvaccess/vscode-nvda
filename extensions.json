@@ -12,6 +12,9 @@
 		"charliermarsh.ruff",
 		"editorconfig.editorconfig",
 		"njpwerner.autodocstring",
+		"ms-python.debugpy",
+		"ms-vscode.remote-server",
+		"benjamin-simmonds.pythoncpp-debug",
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []
