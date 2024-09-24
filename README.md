@@ -1,10 +1,7 @@
 # vscode-nvda: Visual Studio Code project for the NVDA source repository
 
-This repository contains a .vscode directory preconfigured for the [NVDA project repository](https://github.com/nvaccess/nvda).
-You can clone this repository from within the NVDA repository by executing the following command:
-```
-git clone https://github.com/nvaccess/vscode-nvda.git .vscode
-```
+This repository contains a `.vscode` directory preconfigured for the [NVDA project repository](https://github.com/nvaccess/nvda).
+It is included as a submodule in NVDA.
 
 The following settings are configured in this project:
 
