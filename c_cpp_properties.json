@@ -11,7 +11,7 @@
                 "_DEBUG",
                 "UNICODE",
                 "_CRT_SECURE_NO_DEPRECATE",
-                "_WIN32_WINNT=_WIN32_WINNT_WIN7"
+                "_WIN32_WINNT=_WIN32_WINNT_WINBLUE"
             ],
             "intelliSenseMode": "msvc-x64",
             "cppStandard": "c++17"
