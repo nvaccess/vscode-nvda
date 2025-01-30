@@ -17,7 +17,7 @@ Linting is enabled based on the Flake8 configuration bundled with the NVDA repos
 The NVDA repository contains several big modules, such as the gui.settingsDialogs module.
 In order for linting to work throughout the complete file, the maximum number of problems has been increased from 100 to 10000.
 
-## Python interpretter
+## Python interpreter
 
 The current NVDA build environment is set up in such a way that it doesn't require a virtual Python environment.
 This VSCode project does not define the python interrpetter setting by default.
