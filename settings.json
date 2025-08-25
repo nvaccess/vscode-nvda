@@ -29,5 +29,22 @@
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "python.analysis.autoImportCompletions": true,
-    "python.analysis.importFormat": "relative"
+    "python.analysis.importFormat": "relative",
+    "terminal.integrated.profiles.windows": {
+        "64bit NVDA (PowerShell)": {
+            "source": "PowerShell",
+            "env": {
+                "UV_PYTHON": "cpython-3.11.9-windows-x86_64-none"
+            },
+        },
+        "64bit NVDA (Command Prompt)": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "env": {
+                "UV_PYTHON": "cpython-3.11.9-windows-x86_64-none"
+            }
+        }
+    }
 }
